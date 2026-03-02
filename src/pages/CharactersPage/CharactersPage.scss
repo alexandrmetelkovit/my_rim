@@ -1,0 +1,14 @@
+.characters-page {
+  padding-block: 26px;
+
+  &__banner {
+    width: 100%;
+    // border: 1px solid black;
+
+    &-img {
+      margin: 0 auto;
+      width: 600px;
+      height: 200px;
+    }
+  }
+}
