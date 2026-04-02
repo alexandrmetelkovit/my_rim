@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import { Layout } from '@/shared/components';
 import { CharacterPage, CharactersPage } from '@/pages';
+import { Layout } from '@/shared/components';
 
 import './App.css';
 

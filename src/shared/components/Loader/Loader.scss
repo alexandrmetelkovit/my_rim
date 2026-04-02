@@ -6,7 +6,6 @@
     width: 100%;
     height: auto;
     object-fit: contain;
-
     animation: pulse 2s infinite;
   }
 
@@ -19,7 +18,7 @@
   }
 
   &__text {
-    font-family: 'Karla', sans-serif;
+    font-family: Karla, sans-serif;
     font-weight: 700;
     font-size: 18px;
     text-align: center;
@@ -30,9 +29,11 @@
     0% {
       transform: scale(1);
     }
+
     50% {
       transform: scale(1.1);
     }
+
     100% {
       transform: scale(1);
     }
