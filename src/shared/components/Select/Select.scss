@@ -1,0 +1,93 @@
+.select {
+  width: 240px;
+  height: auto;
+  position: relative;
+  display: flex;
+
+  &_small {
+    width: 94px;
+    max-height: 21px;
+  }
+
+  &__clear {
+    background-color: transparent;
+  }
+
+  &__wrapper {
+    width: 240px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border: 1px solid #393939;
+    // border: 1px solid #00000080;
+
+    border-radius: 6px;
+    background: transparent;
+    cursor: pointer;
+
+    &_small {
+      height: 21px;
+      padding: 2px 5px;
+    }
+  }
+
+  &__title {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(0 0 0 / 60%);
+
+    &_small {
+      font-size: 14px;
+    }
+  }
+
+  &__arrow {
+    width: 24px;
+    height: auto;
+    transition: 0.2s all ease-in;
+
+    &_active {
+      transform: rotate(180deg);
+    }
+
+    &_small {
+      width: 9px;
+    }
+  }
+
+  &__list {
+    position: absolute;
+    top: calc(100% + 8px);
+    border: 1px solid #393939;
+    border-radius: 6px;
+    width: 100%;
+
+    &_small {
+      top: calc(100% + 7px);
+    }
+  }
+
+  &__item {
+    height: 40px;
+    padding: 10px 14px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(0 0 0 / 60%);
+    cursor: pointer;
+    user-select: none;
+
+    &_small {
+      font-size: 14px;
+      padding: 5px;
+      height: 34px;
+    }
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}

@@ -3,6 +3,7 @@
 
   &__banner {
     width: 100%;
+
     // border: 1px solid black;
 
     &-img {
@@ -10,5 +11,12 @@
       width: 600px;
       height: 200px;
     }
+  }
+
+  &__body {
+    display: flex;
+    column-gap: 25px;
+
+    // border: 1px solid black;
   }
 }

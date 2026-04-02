@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
 
-import LogoIcon from '../../../assets/icons/logo/logo-white_theme.svg?react';
-import ModeIcon from '../../../assets/icons/theme/mode-white_theme.svg?react';
-import LanguageIcon from '../../../assets/icons/language-icon/languageRU-white_theme.svg?react';
+import LogoIcon from '@/assets/icons/logo/logo-white_theme.svg?react';
+import ModeIcon from '@/assets/icons/theme/mode-white_theme.svg?react';
+import LanguageIcon from '@/assets/icons/language-icon/languageRU-white_theme.svg?react';
 
 import './Header.scss';
 

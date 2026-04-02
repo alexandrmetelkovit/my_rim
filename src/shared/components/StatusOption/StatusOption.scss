@@ -1,0 +1,20 @@
+.status-option {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-flex;
+  margin-left: 5px;
+  flex-shrink: 0;
+
+  &.green {
+    background-color: #0f8129;
+  }
+
+  &.red {
+    background-color: red;
+  }
+
+  &.orange {
+    background-color: #dea02e;
+  }
+}

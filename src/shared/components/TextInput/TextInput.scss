@@ -1,0 +1,56 @@
+.text-input {
+  padding: 16px;
+  width: 240px;
+  height: 56px;
+  display: inline-flex;
+  position: relative;
+
+  &_bordered {
+    border-radius: 8px;
+    border: 1px solid #393939;
+  }
+
+  &_underlined {
+    border: none;
+    padding: 0;
+  }
+
+  &__wrapper {
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+  }
+
+  &__icon {
+    min-width: 24px;
+    min-height: 24px;
+  }
+
+  &__input {
+    font-size: 16px;
+    width: 100%;
+    padding-right: 20px;
+
+    &_underlined {
+      border-bottom: 1px solid #000;
+    }
+  }
+
+  &__clear {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    // border: 1px solid black;
+    background-color: transparent;
+    position: absolute;
+    right: 12px;
+    cursor: pointer;
+  }
+
+  &__button {
+    width: 9px;
+    height: 9px;
+  }
+}

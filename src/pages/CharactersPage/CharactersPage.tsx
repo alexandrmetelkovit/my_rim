@@ -1,7 +1,7 @@
-import { Loader } from '@/shared/components';
 import BannerImg from '@/assets/images/banner.jpg';
 
 import './CharactersPage.scss';
+import { Filterpanel } from './FilterPanel/FilterPanel';
 
 export const CharactersPage = () => {
   return (
@@ -16,11 +16,12 @@ export const CharactersPage = () => {
         />
       </div>
 
-      <div className='character-page__body'>
-        <Loader
+      <div className='characters-page__body'>
+        {/* <Loader
           text='Loading characters...'
           size='medium'
-        />
+        /> */}
+        <Filterpanel />
       </div>
     </div>
   );

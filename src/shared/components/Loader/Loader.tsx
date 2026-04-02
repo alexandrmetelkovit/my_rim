@@ -4,10 +4,10 @@ import './Loader.scss';
 
 type TLoaderSize = 'small' | 'medium';
 
-type TLoaderProps = {
-  text?: string;
+interface TLoaderProps {
   size: TLoaderSize;
-};
+  text?: string;
+}
 
 export const Loader = ({ text, size }: TLoaderProps) => {
   return (
